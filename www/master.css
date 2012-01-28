@@ -1,0 +1,87 @@
+*{margin:0;padding:0;}
+body,a{color:#3b4854;}
+.animate-background{-webkit-transition:background 0.25s linear;-moz-transition:background 0.25s linear;transition:background 0.25s linear;}
+.animate{-webkit-transition:all 0.25s linear;-moz-transition:all 0.25s linear;transition:all 0.25s linear;}
+.ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.secondary-bg{background:url(assets/grid.png) #eeeeee 50% 0%;}
+.sprite{background:url(assets/sprite.png) no-repeat;}
+body,h1,h2,h3,h4{font-size:16px;font-family:'HelveticaNeue-Light',Helvetica,Arial,sans-serif;font-weight:300;letter-spacing:0.05em;}
+h1{font-size:34px;}
+h2{font-size:34px;padding:48px 0;}
+b,strong{font-family:'HelveticaNeue-Bold',Helvetica,Arial,sans-serif;font-weight:900;}
+label{font-family:'HelveticaNeue',Helvetica,Arial,sans-serif;font-weight:400;font-size:12px;}
+.platforms-list li,.list-header.mini,.quick-links-header li{font-family:'HelveticaNeue-Medium','HelveticaNeue',Helvetica,Arial,sans-serif;font-weight:500;}
+a:hover{color:#4cc2e4;}
+p{line-height:2em;margin-bottom:2em;}
+p+p{margin-top:2em;}
+.button-container{position:absolute;right:-5px;background:url(assets/shadow.png);}
+.button{display:block;background:url(assets/sprite.png) no-repeat;background-color:#4cc2e4;background-position:100% -171px;width:288px;padding:16px;color:#fff;font-size:24px;text-decoration:none;position:relative;top:-5px;left:-5px;-webkit-transition:background 0.25s linear;-moz-transition:background 0.25s linear;transition:background 0.25s linear;}
+.button:hover{background-color:#4cd6fc;color:#fff;}
+.button label{display:block;font-size:0.5em;}
+.clear{clear:both;}
+#wrap,.wrap,#footer,hr{width:1008px;margin:0 auto;position:relative;}
+.grid{background:url(assets/grid.png) #eeeeee 50% 0%;padding:32px 0;}
+hr{border:none;border-top:1px solid #ddd;margin-top:64px;margin-bottom:32px;}
+.header-placeholder{height:90px;}
+#header{height:90px;position:fixed;z-index:10;left:0;right:0;background:#fff;border-bottom:1px solid #eee;}
+.logo{background:url(assets/sprite.png) no-repeat;-webkit-transition:background 0.25s linear;-moz-transition:background 0.25s linear;transition:background 0.25s linear;background-color:#3b4854;background-position:0 0px;position:absolute;left:0;top:5px;width:220px;height:75px;}
+.logo:hover{background-color:#4cc2e4;}
+.menu{padding:16px 0;float:right;}
+.menu a{text-decoration:none;-webkit-transition:all 0.25s linear;-moz-transition:all 0.25s linear;transition:all 0.25s linear;padding:16px;margin:0 8px;line-height:55px;}
+.menu a:hover{color:#4cc2e4;}
+.leadin{margin-bottom:32px;}
+.leadin .wrap{height:368px;}
+.leadin .text-block{position:absolute;left:384px;top:64px;}
+.leadin img{position:absolute;top:32px;left:24px;}
+.leadin li{list-style:none;margin:8px;}
+.leadin h1{background:#fff;display:inline;padding:4px 8px;}
+.leadin .button-container{bottom:0;}
+.container-box{background:#fff;padding:8px;position:relative;}
+.list-link{position:absolute;top:0;bottom:0;right:0;}
+.list{padding-top:16px;}
+.list li{background:#fff;padding:8px;position:relative;list-style:none;margin-bottom:16px;}
+.list-header{background:#fff;padding:8px;position:relative;margin-top:16px;}
+.list-header p{margin-bottom:0;}
+.list-container{position:relative;}
+.platforms-list{width:456px;}
+.platforms-list.second{position:absolute;right:0;top:0;}
+.platforms-list li a{position:absolute;top:0;bottom:0;right:0;-webkit-transition:background 0.25s linear;-moz-transition:background 0.25s linear;transition:background 0.25s linear;width:36px;background:url(assets/sprite.png) no-repeat;background-position:3px -127px;background-color:#4cc2e4;}
+.platforms-list li a:hover{background-color:#4cd6fc;}
+.platforms-list li.first a{width:108px;}
+.platforms-list li a.link-apache{right:39px;background-position:2px -94px;}
+.platforms-list li.first a.link-apache{width:144px;right:111px;}
+.mailing-list{width:752px;margin-bottom:24px;}
+.mailing-list a{position:absolute;top:0;bottom:0;right:0;-webkit-transition:all 0.25s linear;-moz-transition:all 0.25s linear;transition:all 0.25s linear;backround:#fff;padding:8px;width:408px;font-size:14px;}
+.mailing-list a:hover{color:#fff;background:#4cc2e4;}
+.mailing-list a span{position:absolute;top:0;bottom:0;right:0;width:36px;background:url(assets/sprite.png) no-repeat;background-position:-156px -95px;background-color:#4cc2e4;}
+.mailing-list li{margin-bottom:3px;}
+.download-pane .button-container{bottom:-70px;}
+.list-header.mini{display:inline;}
+.download-list-container{position:relative;}
+.download-list{width:320px;margin-bottom:24px;}
+.download-list.second,.download-list.third{position:absolute;top:0;}
+.download-list.second{left:344px;}
+.download-list.third{left:688px;}
+.download-list li{height:18px;}
+.download-list .version{position:absolute;top:0;bottom:0;right:0;-webkit-transition:background 0.25s linear;-moz-transition:background 0.25s linear;transition:background 0.25s linear;background:url(assets/sprite.png) no-repeat;background-position:-160px -127px;background-color:#4cc2e4;color:#fff;text-decoration:none;right:auto;left:0;padding:8px;padding-left:32px;width:40%;}
+.download-list .version:hover{background-color:#4cd6fc;}
+.download-list .release{float:right;font-size:12px;}
+.list-header.mini{display:inline;}
+.quick-links,.quick-links-header li{float:left;width:320px;margin-right:24px;list-style:none;}
+.quick-links-header li{margin-bottom:24px;}
+.quick-links.last,.quick-links-header li.last{margin-right:0;}
+.quick-links li{padding:0;}
+.quick-links a{-webkit-transition:all 0.25s linear;-moz-transition:all 0.25s linear;transition:all 0.25s linear;display:block;text-decoration:none;padding:8px;}
+.quick-links a:hover{color:#fff;background:#4cc2e4;}
+.quick-links a span{position:absolute;top:0;bottom:0;right:0;width:36px;background:url(assets/sprite.png) no-repeat;background-position:-156px -95px;background-color:#4cc2e4;}
+#footer{padding:32px 0 64px;}
+#footer p{font-size:12px;line-height:1.5em;}
+.icon{background:url(assets/sprite.png) no-repeat;background-position:0 -220px;padding-left:78px;}
+.icon-about{background-position:0 -220px;}
+.icon-contribute{background-position:0 -316px;}
+.icon-mailing-list{background-position:0 -412px;}
+.icon-download{background-position:0 -508px;}
+.icon-quick-links{background-position:0 -604px;}
+a.scroll-point{display:block;border-bottom:transparent 1px solid;}
+a.pt-top{border:none;}
+a.pt-about{margin:-100px 0 130px;border:none;}
