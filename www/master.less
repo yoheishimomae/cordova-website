@@ -42,11 +42,11 @@ body, a {
 /*not used at the moment*/
 
 .secondary-bg {
-	background: url(assets/grid.png) #eee 50% 0%;
+	background: url(images/grid.png) #eee 50% 0%;
 }
 
 .sprite {
-	background: url(assets/sprite.png) no-repeat
+	background: url(images/sprite.png) no-repeat
 }
 
 /*---------------------------------------------------
@@ -101,7 +101,7 @@ p + p {
 .button-container {
     position: absolute;
     right: -5px;
-    background: url(assets/shadow.png);
+    background: url(images/shadow.png);
 }
 
 .button {
@@ -180,10 +180,10 @@ hr {
 	right: 0;
 	bottom: -3px;
 	height: 3px;
-    background: url(assets/shadow.png);
+    background: url(images/shadow.png);
 }
 
-.logo {
+.logo, .closing {
     .sprite;
 	.animate-background;
 	background-color: @main-color;
@@ -300,6 +300,7 @@ hr {
 /**** Platforms ****/
 
 .platforms-list {
+	padding-top: @padding*2;
     width: @full-width/2 - @gutter*2;
 }
 
@@ -442,6 +443,7 @@ hr {
     width: @column;
     margin-right: @gutter;
     list-style: none;
+	position: relative;
 }
 
 .quick-links-header li {
@@ -490,9 +492,22 @@ hr {
     line-height: 1.5em;
 }
 
+.closing {
+	background-position: 0 -725px;
+    left: auto;
+	right: 0;
+    top: 20px;
+    width: 60px;
+    height: 65px;
+}
+
+.closing:hover {
+	background-color: @key-color;
+}
+
 
 /*---------------------------------------------------
-	Icons
+	Misc
 ---------------------------------------------------*/
 
 @spacer-base: -220px;
@@ -522,3 +537,17 @@ a.pt-about {
 	margin: -100px 0 130px; 
 	border:none
 }
+
+.corner, .quick-links .corner {
+	.sprite;
+	background-position: 0 -808px;
+	position: absolute;
+	left: 0;
+	top: -@gap;
+	width: 40px;
+	height: 40px;
+}
+
+.quick-links .corner {
+}
+

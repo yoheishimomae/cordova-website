@@ -1,0 +1,124 @@
+{
+	"releases":[
+		{
+			"version": 	"1.4",
+			"file": 	"http://phonegap.com",
+			"note": 	"http://phonegap.com"
+		},
+		{
+			"version": 	"1.3",
+			"file": 	"http://phonegap.com",
+			"note": 	"http://phonegap.com"
+		},
+		{
+			"version": 	"1.2",
+			"file": 	"http://phonegap.com",
+			"note": 	"http://phonegap.com"
+		},
+		{
+			"version": 	"1.1",
+			"file": 	"http://phonegap.com",
+			"note": 	"http://phonegap.com"
+		},
+		{
+			"version": 	"1.0",
+			"file": 	"http://phonegap.com",
+			"note": 	"http://phonegap.com"
+		},
+		{
+			"version": 	"0.9.6",
+			"file": 	"http://phonegap.com",
+			"note": 	"http://phonegap.com"
+		},
+		{
+			"version": 	"0.9.5",
+			"file": 	"http://phonegap.com",
+			"note": 	"http://phonegap.com"
+		},
+		{
+			"version": 	"0.9.4",
+			"file": 	"http://phonegap.com",
+			"note": 	"http://phonegap.com"
+		}
+	],
+	
+	"repos":{
+		"platforms":[
+			{
+				"name": 	"Android",
+				"github": 	"https://github.com/apache/incubator-cordova-android",
+				"apache": 	"https://git-wip-us.apache.org/repos/asf?p=incubator-cordova-android.git;a=summary"
+			},
+			{
+				"name": 	"Bada",
+				"github": 	"https://github.com/apache/incubator-cordova-bada",
+				"apache": 	"https://git-wip-us.apache.org/repos/asf?p=incubator-cordova-bada.git;a=summary"
+			},
+			{
+				"name": 	"Blackberry",
+				"github": 	"https://github.com/apache/incubator-cordova-blackberry-webworks",
+				"apache": 	"https://git-wip-us.apache.org/repos/asf?p=incubator-cordova-blackberry-webworks.git;a=summary"
+			},
+			{
+				"name": 	"iOS",
+				"github": 	"https://github.com/apache/incubator-cordova-ios",
+				"apache": 	"https://git-wip-us.apache.org/repos/asf?p=incubator-cordova-ios.git;a=summary"
+			},
+			{
+				"name": 	"Mac OS X",
+				"github": 	"https://github.com/apache/incubator-cordova-mac",
+				"apache": 	"https://git-wip-us.apache.org/repos/asf?p=incubator-cordova-mac.git;a=summary"
+			},
+			{
+				"name": 	"WebOS",
+				"github": 	"https://github.com/apache/incubator-cordova-webos",
+				"apache": 	"https://git-wip-us.apache.org/repos/asf?p=incubator-cordova-webos.git;a=summary"
+			},
+			{
+				"name": 	"Windows Phone",
+				"github": 	"https://github.com/apache/incubator-cordova-wp7",
+				"apache": 	"https://git-wip-us.apache.org/repos/asf?p=incubator-cordova-wp7.git;a=summary"
+			}
+		],
+		
+		"other":[
+			{
+				"name": 	"Docs",
+				"github": 	"https://github.com/apache/incubator-cordova-docs",
+				"apache": 	"https://git-wip-us.apache.org/repos/asf?p=incubator-cordova-docs.git;a=summary"
+			},
+			{
+				"name": 	"Mobile Spec",
+				"github": 	"https://github.com/apache/incubator-cordova-mobile-spec",
+				"apache": 	"https://git-wip-us.apache.org/repos/asf?p=incubator-cordova-mobile-spec.git;a=summary"
+			},
+			{
+				"name": 	"Weinre",
+				"github": 	"https://github.com/apache/incubator-cordova-weinre",
+				"apache": 	"https://git-wip-us.apache.org/repos/asf?p=incubator-cordova-weinre.git;a=summary"
+			}
+		]
+	},
+	
+	"sitemap":{
+		"general":[
+			{ "title":"About Cordova",  "url":"#about" },
+			{ "title":"Incubator Page", "url":"http://incubator.apache.org/projects/callback.html" },
+			{ "title":"License",        "url":"http://www.apache.org/licenses/LICENSE-2.0" }
+		],
+		"dev":[
+			{ "title":"Download",      "url":"#download" },
+			{ "title":"Source Code",   "url":"https://git-wip-us.apache.org/repos/asf" },
+			{ "title":"License",       "url":"http://www.apache.org/licenses/LICENSE-2.0" },
+			{ "title":"Mailing List",  "url":"#mailing-list" },
+			{ "title":"Issue Tracker", "url":"https://issues.apache.org/jira/browse/CB" },
+			{ "title":"Wiki",          "url":"#" }
+		],
+		"asf":[
+			{ "title":"About ASF",        "url":"http://www.apache.org/" },
+			{ "title":"Thanks",           "url":"http://www.apache.org/foundation/thanks.html" },
+			{ "title":"Become a Sponsor", "url":"http://www.apache.org/foundation/sponsorship.html" },
+			{ "title":"Security",         "url":"http://www.apache.org/security/" }
+		]
+	}
+}
