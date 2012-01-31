@@ -4,7 +4,8 @@ body,a{color:#3b4854;}
 .animate{-webkit-transition:all 0.25s linear;-moz-transition:all 0.25s linear;transition:all 0.25s linear;}
 .secondary-bg{background:url(images/grid.png) #eeeeee 50% 0%;}
 .sprite{background:url(images/sprite.png) no-repeat;}
-body,h1,h2,h3,h4{font-size:16px;font-family:'HelveticaNeue-Light',Helvetica,Arial,sans-serif;font-weight:300;letter-spacing:0.05em;}
+body,h1,h2,h3,h4{font-size:16px;font-family:'HelveticaNeue-Light',Helvetica,Arial,sans-serif;font-weight:300;}
+h1,h2,h3,h4{letter-spacing:0.05em;}
 h1{font-size:34px;}
 h2{font-size:34px;padding:48px 0;}
 b,strong{font-family:'HelveticaNeue-Bold',Helvetica,Arial,sans-serif;font-weight:900;}
@@ -33,7 +34,7 @@ hr{border:none;border-top:1px solid #ddd;margin-top:64px;margin-bottom:32px;}
 .leadin .wrap{height:368px;}
 .leadin .text-block{position:absolute;left:384px;top:64px;}
 .leadin img{position:absolute;top:32px;left:24px;}
-.leadin li{list-style:none;margin:8px;}
+.leadin li{list-style:none;margin:9px 8px;}
 .leadin h1{background:#fff;display:inline;padding:4px 8px;}
 .leadin .button-container{bottom:0;}
 .container-box{background:#fff;padding:8px;position:relative;}
@@ -65,7 +66,7 @@ hr{border:none;border-top:1px solid #ddd;margin-top:64px;margin-bottom:32px;}
 .download-list li{height:18px;}
 .download-list .version{position:absolute;top:0;bottom:0;right:0;-webkit-transition:background 0.25s linear;-moz-transition:background 0.25s linear;transition:background 0.25s linear;background:url(images/sprite.png) no-repeat;background-position:-160px -127px;background-color:#4cc2e4;color:#fff;text-decoration:none;right:auto;left:0;padding:8px;padding-left:32px;width:40%;}
 .download-list .version:hover{background-color:#4cd6fc;}
-.download-list .release{float:right;font-size:12px;}
+.download-list .release{float:right;font-size:12px;margin-top:2px;}
 .list-header.mini{display:inline;}
 .quick-links,.quick-links-header li{float:left;width:320px;margin-right:24px;list-style:none;position:relative;}
 .quick-links-header li{margin-bottom:24px;}
