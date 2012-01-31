@@ -120,5 +120,8 @@
 			{ "title":"Become a Sponsor", "url":"http://www.apache.org/foundation/sponsorship.html" },
 			{ "title":"Security",         "url":"http://www.apache.org/security/" }
 		]
-	}
+	},
+	"scripts":[
+		"test"
+	]
 }
