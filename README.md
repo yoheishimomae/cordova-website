@@ -2,7 +2,7 @@ Cordova Website
 ==========================
 
 
-Libraries it uses
+Dependencies
 -----------------------
 
 - Mustache for Ruby
