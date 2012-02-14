@@ -10,17 +10,24 @@ Mustache.template_file = File.dirname( __FILE__ ) + '/../www/template.html'
 view = Mustache.new
 json_file = File.dirname( __FILE__ ) + '/config.json';
 data = JSON.parse( IO.read( json_file ) )
-releases = data['releases']
-latest_item = releases[0]
-len = releases.length;
-column_len = ( len / 3.0 ).ceil
 
 # download button and archives
-view[:download_set1] = releases.slice( 0, column_len )
-view[:download_set2] = releases.slice( column_len, column_len )
-view[:download_set3] = releases.slice( column_len*2, column_len )
-view[:latest_version] = latest_item['version']
-view[:download_link] = latest_item['file']
+releases = data['releases']
+if releases.length > 0
+    latest_item = releases[0]
+    archives = releases.slice(1, releases.length)
+    len = archives.length;
+    column_len = ( len / 3.0 ).ceil
+    view[:download_set1] = archives.slice( 0, column_len )
+    view[:download_set2] = archives.slice( column_len, column_len )
+    view[:download_set3] = archives.slice( column_len*2, column_len )
+    view[:latest_version] = latest_item['version']
+    view[:download_link] = latest_item['file']
+    view[:hide_archives] = len == 0
+else
+    view[:hide_archives] = true
+    view[:no_download] = true
+end
 
 # list of repos
 repos = data['repos']

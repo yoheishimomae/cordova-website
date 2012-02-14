@@ -37,9 +37,11 @@
             <li><h1>application using <strong>HTML</strong>, <strong>CSS</strong></h1></li>
             <li><h1>and <strong>JavaScript</strong></h1></li>
         </ul>
+        {{^no_download}}
 		<div class="button-container">
 			<a class="button" href="{{download_link}}">DOWNLOAD<label>Cordova Ver {{latest_version}}</label></a>
 		</div>
+		{{/no_download}}
     </div>
 </div>
 
@@ -53,8 +55,10 @@
 
 <div class="wrap">
     <h2 class="icon icon-contribute">Want to Contribute?</h2>
-	<p>Contributing to Apache Cordova lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse felis nulla, tempus eu imperdiet eget, commodo et risus. Suspendisse potenti. Nullam urna ante, scelerisque sit amet iaculis non, sodales et tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-	<p>You can start by subscribing to the Mailing List (see below) then lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse felis nulla, tempus eu imperdiet eget, commodo et risus. Suspendisse potenti. Nullam urna ante, scelerisque sit amet iaculis non, sodales et tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus non ligula lacus, convallis ultricies arcu.</p>
+	<p>First, make sure you have signed the <a href="http://www.apache.org/licenses/#clas">Apache CLA</a>.</p>
+	<p>The <a href="https://issues.apache.org/jira/browse/">JIRA issue tracker</a> and the <a href="#mailing-list">dev mailing list</a> are good places to identify areas to help out in.</p>
+	<p>Next, clone the git repository for the project you are wishing to contribute to (see below). We recommend employing a certain type of git workflow, please see our <a href="http://wiki.apache.org/cordova/ContributerWorkflow">wiki article</a> for more information.</p>
+	<p>Finally, to share your changes with the community, you can send a pull request on GitHub to the Apache git mirrors. You can also advocate for your changes directly on our <a href="#mailing-list">mailing list</a>.</p>
 	<p>For detailed instruction on how to contribute for a specific platform / topic, choose from below:</p>
 </div>
 
@@ -114,7 +118,12 @@
     <h2 class="icon icon-download">Download &amp; Archives</h2>
 	<p>By downloading, you agree to the <a href="#">terms of service</a>.</p>
 	<div class="button-container">
-		<a class="button" href="{{download_link}}">DOWNLOAD<label>Cordova Ver {{latest_version}}</label></a>
+	    {{^no_download}}
+        <a class="button" href="{{download_link}}">DOWNLOAD<label>Cordova Ver {{latest_version}}</label></a>
+        {{/no_download}}
+        {{#no_download}}
+    	<div class="button">Coming Soon<label></label></div>
+    	{{/no_download}}
 	</div>
 </div>
 
@@ -123,6 +132,7 @@
         <div class="corner"></div>
 		<br/>
 		<br/>
+		{{^hide_archives}}
         <div class="list-header mini">Past Releases</div>
 		<br/>
 		<br/>
@@ -145,6 +155,7 @@
 				{{/download_set3}}
 			</ul>
 		</div>
+		{{/hide_archives}}
     </div>
 </div>
 

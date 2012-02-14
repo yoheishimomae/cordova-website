@@ -7,6 +7,7 @@ Libraries it uses
 
 - Mustache for Ruby
 - LessCSS
+- Json
 
 
 How to compile the site

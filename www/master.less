@@ -21,6 +21,7 @@ body, a {
 @main-color:        #3b4854;
 @key-color:         #4cc2e4;
 @key-color-hover:   #4cd6fc;
+@disable-color:     #abafb0;
 
 .animate-background {
 	-webkit-transition: background 0.25s linear;
@@ -121,9 +122,14 @@ p + p {
     color: #fff;
 }
 
+div.button, div.button:hover {
+    background-color: @disable-color;
+}
+
 .button label {
     display: block;
     font-size: 0.5em;
+    height: 16px;
 }
 
 .clear {
